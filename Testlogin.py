@@ -35,7 +35,7 @@ def check_pasword_box(*args):
 def pasword_for_sine_up():
   global root
   global e
-  lable_for_pasword = tk.Label(root, text = "Type pasword again to create account", fg = "white", bg = "black")
+  lable_for_pasword = tk.Label(root, text = "Type password again to create account", fg = "white", bg = "black")
   
   e = StringVar()
   e.trace("w", check_pasword_box)
@@ -55,7 +55,7 @@ def Chechsineup(username, password):
   root = tk.Tk()
   root.config(background="black")
   text = tk.Label(root, text="The account you typed in does not exist \n Would you like to sign \n or \n go back to the login page", fg = "white", bg = "black")
-  Sineup = tk.Button(root, text = "SineUp", fg = "white", bg = "black", command= lambda: pasword_for_sine_up())#SineUp(user, pas))
+  Sineup = tk.Button(root, text = "SignUp", fg = "white", bg = "black", command= lambda: pasword_for_sine_up())#SineUp(user, pas))
   login = tk.Button(root, text = "Login", fg = "white", bg = "black", command= login2, state=tk.DISABLED)
   
   text.grid(row = 0, column= 0, columnspan=2)
