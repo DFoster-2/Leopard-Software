@@ -50,7 +50,7 @@ def NewFile():
   root2 = tk.Tk()
   root2.geometry("250x50")
   root2.title("New File")
-  Label = tk.Label(root2, text= "Enter a new name for new  file")
+  Label = tk.Label(root2, text= "Enter a new name for new file")
   Label.grid(row = 0, column= 0, columnspan= 3)
   name = tk.Entry(root2, width= 20, highlightcolor= "#FFD700")
   name.grid(row = 1, column= 0)
