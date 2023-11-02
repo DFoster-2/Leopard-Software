@@ -23,4 +23,5 @@ def decrypt2(name):
   decypt = f.decrypt(encrepted) #idk
   with open (name, "wb") as Pd:
     Pd.write(decypt)
-""" if change anthing in this file you need to update the fuchson in Apps.bombgame.bombgame.py"""
+
+""" WARNING: If you change anthing in this file, you need to update the function in Apps.bombgame.bombgame.py"""
