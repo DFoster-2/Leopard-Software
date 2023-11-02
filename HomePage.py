@@ -37,10 +37,10 @@ def app3(user):
     start()
   else:
     encryped("Admins.txt")
-    tk.messagebox.showerror("Pomishion","You do not have ecress to this app")
+    tk.messagebox.showerror("Permission","You do not have access to this app.")
     
 def app4(user):
-  tk.messagebox.showwarning("Warning", "This is a unstable app")
+  tk.messagebox.showwarning("Warning", "This is a unstable app.")
   from Apps.Web.Web import web; web()
 def app5(user):
   from Apps.FilesApss.fileexplorer import fileExplorer
